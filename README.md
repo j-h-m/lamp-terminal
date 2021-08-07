@@ -1,1 +1,1 @@
-# leamp-terminal
+# lamp-terminal
