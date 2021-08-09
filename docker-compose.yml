@@ -1,0 +1,21 @@
+version: "3"
+services:
+  webserver:
+    build: 
+      context: .
+      dockerfile: WebServer.Dockerfile
+    ports:
+      - "80:80"
+      - "443:443"
+  dbase:
+    build:
+      context: .
+      dockerfile: MySql.Dockerfile
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: lamp
+      MYSQL_USER: lamp
+      MYSQL_PASSWORD: lamp
+    restart: always
