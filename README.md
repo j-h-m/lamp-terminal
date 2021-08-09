@@ -1,7 +1,7 @@
 # lamp-terminal (in Docker container)
 
 ## intent
- - use to learn about command injection, sql injection, and breaking from the docker network
+ - Study command injection, sql injection, and breaking from the created docker network
 
 ## useful links
  - https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-20-04
